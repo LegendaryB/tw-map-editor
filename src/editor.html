@@ -1,0 +1,59 @@
+<div id="drawOnMapEditor">
+    <h3>Karten Editor</h3>
+    <div style="margin-bottom: 16px;">
+        <input type="checkbox" id="activate" name="activateCheckbox">
+        <label for="activateCheckbox">Aktivieren</label>
+    </div>
+    <table style="width:100%;">
+        <tbody>
+            <tr>
+                <td>
+                    <h5>Werkzeuge</h5>
+                    <div>
+                        <input type="radio" id="selectElement" name="selectedDrawTool" value="selection" checked>
+                        <label for="selectElement"> Selektion</label>
+                        <input type="radio" id="drawLine" name="selectedDrawTool" value="line" checked>
+                        <label for="drawLine"> ⟋ Linie</label>
+                        <input type="radio" id="drawArrow" name="selectedDrawTool" value="arrow">
+                        <label for="drawArrow"> ↗ Pfeil</label>
+                        <input type="radio" id="drawText" name="selectedDrawTool" value="text">
+                        <label for="drawText"> Text</label>
+                    </div>
+                </td>
+                <td>
+                    <h5>Werkzeug-Einstellungen</h5>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Farbe</td>
+                                <td>
+                                    <input value="#C899F5" id="color" type="color">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Linienstärke</td>
+                                <td>
+                                    <input value="4" id="lineWidth" type="number">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Textgröße</td>
+                                <td>
+                                    <input id="textSize" type="number" value="12">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>
+                    <h5>Teilen</h5>
+
+                    <div>
+                        <a href="javascript:void(0);">» Importieren</a>
+                    </div>
+                    <div><a href="javascript:void(0);">» Exportieren</a></div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

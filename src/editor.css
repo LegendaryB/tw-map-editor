@@ -1,0 +1,27 @@
+#drawOnMapEditor {
+    margin-bottom: 15px;
+    border: 1px solid #8c5f0d;
+    padding: 5px;
+    background-color: rgb(244, 228, 188);
+}
+
+#drawOnMapEditor input[type=color] {
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 40px;
+    background: none;
+}
+
+#drawOnMapEditor input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+#drawOnMapEditor input[type="color"]::-webkit-color-swatch {
+    border: solid 1px #000;
+    border-radius: 40px;
+}
+
+#drawOnMapEditor td {
+    vertical-align: top;
+}
