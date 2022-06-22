@@ -3,11 +3,11 @@ const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = {
   entry: './src/index.js',
-  mode: 'production',
+  mode: 'development',
   output: {
     path: path.resolve(__dirname, 'dist'),
     clean: true,
-    filename: 'tw-map-extension.js',
+    filename: 'tw-map-editor.js',
   },
   optimization: {
     minimize: false,
